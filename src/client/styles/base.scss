@@ -1,0 +1,16 @@
+@import './variables.scss';
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: $font-page;
+}
+
+body {
+	min-height: 100vh;
+	background-color: $page_bg_color;
+}
+
+main {
+	min-height: $menu_min_height;
+}

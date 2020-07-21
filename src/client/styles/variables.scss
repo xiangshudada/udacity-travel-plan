@@ -1,0 +1,22 @@
+$page_bg_color : #ffafaf;
+$edge_bg_color: #fffdd0;
+$green_color: #0fac0f;
+$red_color: #c70000;
+
+/* Hover Colors */
+$cream_hover: #fffee9;
+$green_hover: #0aff0a;
+$red_hover: #ff1414;
+
+$header_height: 5vh;
+$footer_height: 7vh;
+$menu_min_height: 100vh - ($header_height + $footer_height);
+
+$font_title: 'Calligraffitti', cursive;
+$font_page: 'Scope One', serif;
+
+$content_width: 96vw;
+$content_width_desktop: 50vw;
+
+/* Media Queries */
+$desktop: 1100px;

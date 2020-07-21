@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Travel App</title>
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Scope+One&display=swap">
+</head>
+<body>
+	<header>
+		<h1>Travel App</h1>
+	</header>
+	<main>
+		<div class="menu">
+			<h3>My Trips:</h3>
+			<div class="middle-color"></div>
+			<button class="add-trip">+ Add Trip</button>
+		</div>
+		<div class="content-container">
+			<!-- Form and Trip Content go here. -->
+		</div>
+	</main>
+	<hr>
+	<footer>
+		<h3>Udacity Capstone Project</h3>
+	</footer>
+	<!-- Service Workers -->
+	<script>
+		if ('serviceWorker' in navigator) {
+        	window.addEventListener('load', () => {
+        	navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+	</script>
+</body>
+</html>

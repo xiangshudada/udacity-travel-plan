@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+header {
+	background-color: $edge_bg_color;
+	height: $header_height;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	font-family: $font-title;
+	font-size: 4em;
+	margin-bottom: -90px;
+	z-index: 100;
+}
+
+@media(min-width: $desktop) {
+
+	header h1 {
+		font-size: 3.8em;
+		margin-bottom: -60px;
+	}
+
+}
